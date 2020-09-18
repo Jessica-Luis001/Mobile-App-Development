@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+
 final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 final SnackBar snackBar = const SnackBar(content: Text('Lower Pop-Up Icon'));
 
@@ -67,6 +68,12 @@ class MyStatelessWidget extends StatelessWidget {
           'Potted Tunes!',
           style: TextStyle(fontSize: 65),
         ),
+ 
+ //       floatingActionButton: FloatingActionButton(
+ //       onPressed: () {},
+ //       child: Icon(Icons.add),
+ //       backgroundColor: Colors.green,
+ //     ),
       ),
     );
   }
