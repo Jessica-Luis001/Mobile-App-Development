@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF7A6"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/sixthActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="@string/next_page"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0B0606"
+        app:backgroundTint="#FF5733"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox15"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/questionnaire"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#581845"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="544dp"
+        android:text="@string/_2_how_often_do_you_listen_to_music_in_a_day_within_24_hours"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#900C3F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintVertical_bias="0.061" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_one_to_6_six_hours"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_7_seven_to_12_twelve_hours"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_13_thirteen_to_18_eighteen_hours"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_19_nineteen_to_24_twenty_four_hours"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <Button
+        android:id="@+id/tenthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#040303"
+        app:backgroundTint="#FFC300"
+        app:layout_constraintBottom_toTopOf="@+id/sixthActivityBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox15"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar2"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#581845"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="BottomAppBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

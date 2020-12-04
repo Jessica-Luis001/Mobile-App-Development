@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sixthActivityBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF7A6"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/questionnaire"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#581845"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_4_music_streaming_platforms_used"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#900C3F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apple_music"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toEndOf="@+id/checkBox16"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/google_play"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox16"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <CheckBox
+        android:id="@+id/checkBox20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pandora"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox17"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <CheckBox
+        android:id="@+id/checkBox21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soundcloud"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox19"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <CheckBox
+        android:id="@+id/checkBox22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amazon_music"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C70039"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox20"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <Button
+        android:id="@+id/Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Done"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0B0606"
+        app:backgroundTint="#FFC300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <Button
+        android:id="@+id/ninthActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_page"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0B0606"
+        app:backgroundTint="#FF5733"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar2"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#581845"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="BottomAppBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
